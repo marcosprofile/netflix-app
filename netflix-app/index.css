@@ -1,0 +1,206 @@
+body {
+    font-family: "Open-sans", sans-serif;
+    background-color: #000;
+}
+
+h2 {
+    margin: 20px 14px 10px 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.mobile {
+    border: 10px solid #9C9C9C;
+    border-radius: 50px;
+    width: 380px;
+    height: 800px;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.topo {
+    height: 410px;
+}
+
+#fundo {
+    background: url("https://sm.ign.com/ign_br/tv/s/stranger-t/stranger-things_y6du.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.lista-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10px 10px 10px;
+    gap: 200px;
+    position: relative;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.logo {
+    max-width: 50px;
+    height: 40px;
+}
+
+.user {
+    max-width: 34px;
+    border-radius: 6px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 45px 0 45px;
+    position: relative;
+    font-size: 18px;
+}
+
+.section p:nth-of-type(2) {
+    cursor: pointer;
+}
+
+.pointer, #pointer {
+    cursor: pointer;
+}
+
+.categoria {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.gradient {
+    background: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,1.0) 0,
+        rgba(0,0,0,.4) 80%,
+        rgba(0,0,0,.8) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 40px 40px 0 0;
+}
+
+.generos {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    font-size: 12px;
+    align-items: center;
+    margin: 150px 50px 20px 50px;
+}
+
+.separador {
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #4C555A;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin: 0 30px;
+}
+
+.botao-1, .botao-3 {
+    font-size: 11px;
+    color: #B2B3B5;
+    
+}
+
+.botao-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.botao-2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px 10px 10px;
+    border-radius: 4px;
+}
+
+.botao-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 6px;
+}
+
+.shuffle {
+    margin: 248px 0 0 310px;
+    width: 60px;
+}
+
+#shuffle {
+    background: rgb(255, 255, 255, .8);
+    padding: 14px;
+    border-radius: 30px;
+    color: #000;
+}
+
+.galery {
+    display: flex;
+    gap: 8px;
+    margin-left: 14px;
+    width: 390px;
+}
+
+.capa {
+    height: 154px;
+    border-radius: 6px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18px;
+    align-items: center;
+    background-color: rgb(18, 18, 18, .94);
+    height: 80px;
+    margin-top: 16px;
+    border-radius: 26px 26px 0 0;
+}
+
+.menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+    width: 50px;
+}
+
+.menu-1, .menu-3, .menu-4, .menu-5 {
+    gap: 5px;
+}
+
+.menu-2, .menu-3, .menu-4, .menu-5 {
+    color: #757575;
+}
